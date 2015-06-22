@@ -4,66 +4,68 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
-
-    <!-- Google fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,300,300italic,700,700italic' rel='stylesheet' type='text/css'>
-    
-    <!-- Bootflat -->
-    <link rel="stylesheet" href="{{asset('vendor/bootflat/css/bootflat.css')}}">
-    <link rel="stylesheet" href="{{asset('vendor/bootflat/css/site.min.css')}}">
-    <!-- Custom style -->
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <title>NAMA APLIKASI</title>
+    <link href="/css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <link href="/css/style.css" rel='stylesheet' type='text/css' />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="/js/login.js"></script>
+    <script src="/js/jquery.easydropdown.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <link href="/css/animate.css" rel='stylesheet' type='text/css' />
+    <script>
+      new WOW().init();
+    </script>
   </head>
   <body>
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Bootflat</a>
+    <nav class="header" role="navigation">
+      <div class="col-sm-4 header-left">
+        <div class="logo">
+          <a href="index.html"><img src="#" alt=""/></a>
+        </div> 
+        <div class="menu">
+          <a class="toggleMenu" href="#"><img src="/images/nav.png" alt="" /></a>
+            <ul class="nav" id="nav">
+              <li class="active"><a href="index.html">Explore</a></li>
+              <li><a href="living.html">Compose</a></li>
+              <div class="clearfix"></div>
+            </ul>
+            <script type="text/javascript" src="/js/responsive-nav.js"></script>
+        </div>  
+      </div>
+      <div class="col-sm-3 search-box">
+            <input type="text" value="Cari alat musik atau lagu" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+            <input type="submit" value="" />
+      </div>
+      <div class="col-sm-4 header_right">
+        <div id="loginContainer"><a href="#" id="loginButton"><img src="/images/login.png"><span>Login</span></a>
+          <div id="loginBox">                
+            <form id="loginForm">
+                    <fieldset id="body">
+                      <fieldset>
+                              <label for="email">Email Address</label>
+                              <input type="text" name="email" id="email">
+                        </fieldset>
+                        <fieldset>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password">
+                         </fieldset>
+                        <input type="submit" id="login" value="Sign in">
+                      <label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
+                  </fieldset>
+                     <span><a href="#">Forgot your password?</a></span>
+            </form>
+          </div>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          
-          <ul class="nav navbar-nav">
-            <li class=""><a href="#">Galeri proyek</a></li>
-          </ul>
-
-          <form class="navbar-form navbar-left" role="search">
-            <div class="form-search search-only">
-              <i class="search-icon glyphicon glyphicon-search"></i>
-              <input class="form-control search-query" type="text">
-            </div>
-          </form>
-          
-          <ul class="nav navbar-nav navbar-right">
-
-            <li>
-              <a href='#'>Login</a>
-            </li>
-            <li><a href="#">Daftar</a></li>
-          </ul>
-        
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+        <div class="clearfix"></div>
+      </div>
     </nav>
 
+    <div class= "content-main">
     @yield('content')
-
+    </div>
+    
     <footer>
       <div class="container">
         <div class="row">
@@ -92,12 +94,5 @@
       </div>
       
     </footer>
-    @section('scripts')
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="{{asset('vendor/jquery/dist/jquery.min.js')}}"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="{{asset('vendor/bootflat/js/bootstrap.min.js')}}"></script>
-   
-    @show
-  </body>
+    </body>
 </html>
