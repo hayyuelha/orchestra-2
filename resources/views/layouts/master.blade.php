@@ -22,20 +22,20 @@
     <nav class="header" role="navigation">
       <div class="col-sm-4 header-left">
         <div class="logo">
-          <a href="index.html"><img src="#" alt=""/></a>
+          <a href="#"><img src="#" alt=""/></a>
         </div> 
         <div class="menu">
           <a class="toggleMenu" href="#"><img src="/images/nav.png" alt="" /></a>
             <ul class="nav" id="nav">
-              <li class="active"><a href="index.html">Explore</a></li>
-              <li><a href="living.html">Compose</a></li>
+              <li class="active"><a href="#">Explore</a></li>
+              <li><a href="#">Compose</a></li>
               <div class="clearfix"></div>
             </ul>
             <script type="text/javascript" src="/js/responsive-nav.js"></script>
         </div>  
       </div>
       <div class="col-sm-3 search-box">
-            <input type="text" value="Cari alat musik atau lagu" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+            <input type="text" value="Cari alat musik atau lagu" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Cari alat musik atau lagu';}">
             <input type="submit" value="" />
       </div>
       <div class="col-sm-4 header_right">
