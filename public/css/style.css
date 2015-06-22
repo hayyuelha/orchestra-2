@@ -12,7 +12,7 @@ html, body{
    font-family: 'Montserrat', sans-serif;
    font-size: 100%;
    background:#fff; 
-   margin-left: -40px;
+   width: 100%;
 }
 body a{
 	transition:0.5s all;
@@ -122,6 +122,25 @@ body a{
 }
 .nav ul {
     list-style: none;
+}
+/*--copy-rights--*/
+.copyrights {
+  background: #1BBC9B;
+  padding: 1em 0;
+  text-align: center;
+  color: #fff;
+}
+.copyrights {
+  background: #000;
+  padding: 1em 0;
+  text-align: center;
+  color: #fff;
+}
+.copyrights p {
+	margin:0;
+}
+.copyrights p a {
+	color:#fff;
 }
 @media screen and (max-width:800px) {
 	.active {
@@ -335,7 +354,7 @@ a#loginButton img {
 }
 .container_wrap{
 	margin:0 auto;
-	width:70%;
+	width:100%;
 }
 .dropdown-buttons{
 	margin-bottom: 1em;

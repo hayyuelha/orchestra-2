@@ -67,32 +67,9 @@
     </div>
     
     <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Tentang Kami</h3>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>     
-          </div>
-
-          <div class="col-md-4">
-            <h3>Bantuan</h3>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>     
-          </div>
-          
-          <div class="col-md-4">
-            <h3>Kontak</h3>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>
-            <p>Lorem ipsum</p>     
-          </div>
-
-        </div>
+      <div class="copyrights">
+          <p>Copyrights &copy; 2015 ide_yafi</p>
       </div>
-      
     </footer>
-    </body>
+  </body>
 </html>
