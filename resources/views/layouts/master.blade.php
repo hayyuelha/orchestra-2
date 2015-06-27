@@ -7,8 +7,8 @@
     <title>NAMA APLIKASI</title>
     
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href="{{asset('css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
-    <link href="{{asset('css/style.css')}}" rel='stylesheet' type='text/css' />
+    <link href="{{asset('vendor/bootflat/css/bootstrap.min.css')}}" rel='stylesheet' type='text/css' />
+      <link href="{{asset('css/style.css')}}" rel='stylesheet' type='text/css' />
     <link href="{{asset('font-awesome/css/font-awesome.min.css')}}"/>
     <link href="{{asset('css/orchestra.css')}}" rel="stylesheet" type="text/css"/>
 
