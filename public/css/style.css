@@ -24,13 +24,11 @@ body a{
 .header{
 	background:rgb(77,77,77);
 	padding:0;
-	margin-left: 0px;
 	height : 70px;
 }
 .header-left{
-	padding: 9px 0;
-	width: 25%;
-	margin-top: 10px;
+	padding: 10px 0 0 0px;
+	width: 30%;
 }
 
 .search-box{
@@ -62,28 +60,28 @@ body a{
 	width: 24px;
 	height: 24px;
 	top: 7px;
-	left: 580px;
+	left: 90%;
 }
 .logo{
-	width: 30%;
+	display:block;
+	width: 20%;
 	float: left;
+	position: relative;
 	margin-right: 5%;
-	margin-left: 5%;
-	margin-top: 3%;
-	width: 10%;
+	left: 5%;
+	margin-top: -2%;
 }
 .menu{
-	 float:left;
-	 margin-left: 0px;
-	 padding-top: 5px;
-	 width:70%;
+	 position:relative;
+	 padding-top: 3%;
+	 width:100%;
 }
 .menu li{
 	display:inline-block;
 	margin-right: 20px;
 }
 .menu li:first-child{
-   	margin-left:0;
+   	margin-left:8%;
 }
 .menu li a{
   	display: block;
@@ -205,8 +203,8 @@ body a{
 
 .header_right{
 	float:right;
-	width:20%;
-	padding:0;
+	width:25%;
+	padding:0 0 0 5%;
 }
 /********** Login *************/
 #loginContainer {
@@ -234,6 +232,7 @@ body a{
 	left:0;
     display:none;
     z-index:29;
+    width: 100%;
 }
 #loginForm:after {
 	content: '';
@@ -246,7 +245,7 @@ body a{
 }
 /* Login Form */
 #loginForm {
-	width: 120%;
+	width: 100%;
 	background: #fff;
 	border: none;
 }
@@ -255,6 +254,7 @@ body a{
     display:block;
     border:0;
     padding:0;
+    width: 100%
 }
 fieldset#body {
     border-radius:3px;
@@ -367,7 +367,7 @@ a#loginButton img {
 
 /**** Homepage *****/
 .homepage-landing {
-	background-image: url("/images/peta.png");
+	background-image: url("/images/angklung1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
@@ -392,6 +392,42 @@ a#loginButton img {
     color: #f1f1f1;
     display: inline-block;
 }
+.homepage-compose {
+	background: #e2e2e2;
+	padding : 10% 0 10% 0px;
+	height: 400px;
+}
+
+.compose-1{
+	text-align : center;
+	color : #000;
+	min-height: 30px;
+	display: block;
+	text-transform: uppercase;
+	border-style: outset;
+	border-color: #000;
+	margin-right: 10%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.homepage-showcase {
+	padding: 5% 80px 5% 80px;
+}
+
+#homepage-showcase .item {
+	background: #42bdc2;
+    padding: 30px 0px;
+    margin-left: 50px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    height: 200px;
+    width: 150px;
+}
+
 /**** Drop Down *********/
 /* PREFIXED CSS */
 .flat,
@@ -876,6 +912,17 @@ a#loginButton img {
 	-moz-border-radius: 100px;
 	-o-border-radius: 100px;
 }
+.love-i {
+	background: url(../images/heart.png);
+	width: 40px;
+	height: 40px;
+}
+.showc:hover span.love-i{
+	background: url(../images/heart2.png);
+	width: 40px;
+	height: 40px;
+}
+
 .view:hover .sale{
 	display:none;
 }
@@ -1454,8 +1501,7 @@ ul.service_grid li.desc1 p{
 .sale-label {
 	font-size: 0.8125em;
 	color: #FFF;
-	background:#FF9147
-;
+	background:#FF9147;
 	text-transform: uppercase;
 	padding: 9px;
 	text-align: center;
@@ -1827,23 +1873,22 @@ p.educate {
 /*--responsive design--*/
 @media (max-width:1366px){
 .header {
-	margin-left: 8em;
+	margin-left: 0em;
 }
 
 #loginForm {
 	width:374px;
 }
 .logo {
-	margin-right: 5%;
-	width: 10%;
+	width: 20%;
 }
 .menu {
-	width:71.5555%;
+	width:100%;
 }
 }
 @media (max-width:1280px){
 .header {
-	margin-left:5em;
+	margin-left:0em;
 }
 .footer span {
 	width:62%;
@@ -1859,7 +1904,7 @@ p.educate {
 	width: 330px;
 }
 .menu {
-	width: 74.5555%;
+	width: 100%;
 }
 .menu li a {
 	margin: 5px 5px;
@@ -1875,7 +1920,7 @@ p.educate {
 }
 @media (max-width:1024px){
 .header {
-	margin-left:3em;
+	margin-left:0em;
 }
 .footer span{
 	width:60%;
@@ -1891,14 +1936,11 @@ p.educate {
 	font-size: 0.8125em;
 }
 .menu {
-	width: 70.5555%;
+	width: 100%;
 }
 .logo {
 	margin-right:0;
-	width: 10%;
-}
-.menu {
-	width: 71.5555%;
+	width: 20%;
 }
 .container_wrap {
 	margin: 0 auto;
@@ -2010,13 +2052,13 @@ span.one, span.two, span.three, span.four{
 	display: inline-block;
 }
 .header {
-	margin-left: 2em;
+	margin-left: 0em;
 }
 .menu li a {
 	padding: 10px 10px;
 }
 .menu {
-	width: 52.5555%;
+	width: 100%;
 	text-align: center;
 }
 #loginForm {
@@ -2235,7 +2277,7 @@ h2.title.block-title {
 }
 @media (max-width:480px){
 .header {
-	margin-left: 1em;
+	margin-left: 0em;
 }
 .sale-box {
 	left: 9.5em;
@@ -2441,12 +2483,12 @@ label.btn1.btn2.btn-2.btn-2g {
 	min-height: 200px;
 }
 .menu {
-	width: 25.5555%;
+	width: 100%;
 	text-align: center;
 	float: right;
 }
 .logo {
 	margin: 0;
-	width: 56%;
+	width: 20%;
 }
 }
