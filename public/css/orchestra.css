@@ -2,8 +2,6 @@ html, body, #container {
     height: 100%;
 }
 body > #container {
-    margin-top: -70px;
-    padding-top: 70px;
     height: auto;
     min-height: 100%;
 }
@@ -11,7 +9,6 @@ body > #container {
 #main-content {
     padding-bottom: 3em;
 }
-
 footer {
     clear: both;
     position: relative;

@@ -27,8 +27,8 @@
     </script>
   </head>
   <body>
-    <nav class="header" role="navigation">
-      <div class="col-sm-4 header-left">
+    <nav class="header" role="navigation" id="header">
+      <div class="col-sm-4 header-left"  >
         <div class="logo">
           <a href="#"><img src="/images/home1.png" alt=""/></a>
         </div> 
