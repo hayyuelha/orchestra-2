@@ -11,9 +11,9 @@
    				</ul>
 			   </div>
 		   </div>
-   		<div class="col-md-4 content_dropdown1">
-            <div class= "sort" > Sort by : </div>
-   		   <div class="content_dropdown">    
+   		<div class="col-md-4 content_dropdown1 row">
+            <div class= "col-sm-4 sort" > Sort by : </div>
+   		   <div class="col-sm-4 content_dropdown">    
 		         <select class="dropdown" tabindex="10" data-settings='{"wrapperClass":"metro"}'>
                	<option value="0">A-Z</option>	
 						<option value="1">By Date</option>
@@ -29,31 +29,42 @@
 	  <div class="container">
    	  <div class="content_middle_box">
           <div class="top_grid">
-   			<div class="col-md-12">
-   			  <div class="grid1">
+   			 <div class="grid1 col-md-12">
    				<div class="view view-first">
-                  <div class="index_img"><img src="/images/pic1.jpg" class="img-responsive" alt=""/></div>
-   				    <div class="sale">$2.980</div>
-   			          <div class="mask">
+                  <div class="index_img"><img src="/images/angklung1.jpg" class="img-responsive" alt=""/></div>
+   				       <div class="mask" href="#">
+                        <p> Angklung adalah alat musik dari Jawa Barat. Lalalala lalalalalalala </p>
                         <div class="info"><i class="search"> </i> Show More</div>
-                        <ul class="mask_img">
-                        	<li class="star"><img src="/images/star.png" alt=""/></li>
-                        	<li class="set"><img src="/images/set.png" alt=""/></li>
-                        	<div class="clearfix"> </div>
-                        </ul>
                        </div>
                    </div> 
                    <i class="home"></i>
    				 <div class="inner_wrap">
-   				 	<h3>2 bedroom house for rent in Dubai</h3>
-   				 	<ul class="star1">
-   				 	  <h4 class="green">Vision Agency</h4>
-   				 	  <li><a href="#"> <img src="/images/star1.png" alt="">(236)</a></li>
-   				 	</ul>
+   				 	<h1 class="grey">ANGKLUNG</h1>
+   				 	<p class="star1">
+   				 	  oleh <a href="#"> AFIK </a> | <a href="#"> <img src="/images/star1.png" alt=""> suka (236)</a>
+   				 	</p>
    				 </div>
-   			   </div>
-   			</div>
+			     </div>
    			<div class="clearfix"> </div>
+            <div class="grid1 col-md-12">
+               <div class="view view-first">
+                  <div class="index_img"><img src="/images/angklung1.jpg" class="img-responsive" alt=""/></div>
+                      <div class="mask" href="#">
+                        <p> Bubuy Bulan adalah lagu dari Jawa Barat. Lalalala lalalalalalala </p>
+                        <div class="info"><i class="search"> </i> Show More</div>
+                       </div>
+                   </div> 
+                   <i class="home1"></i>
+                 <div class="inner_wrap">
+                  <h1 class="grey">Bubuy Bulan</h1>
+                  <p class="star1">
+                    oleh <a href="#"> AFIK </a>| <a href="#"> <img src="/images/star1.png" alt="">suka (236)</a> |
+                    <a href="#"> <img src="/images/star1.png" alt="">fork</a> |
+                    <a href="#"> <img src="/images/star1.png" alt="">add to playlist</a>
+                  </p>
+                </div>
+              </div>
+            <div class="clearfix"> </div>
    		 </div>
          </div>
       </div>

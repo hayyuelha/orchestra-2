@@ -13,6 +13,7 @@
     <link href="{{asset('css/orchestra.css')}}" rel="stylesheet" type="text/css"/>
 
     <script type="text/javascript" src="{{asset('js/jquery-1.11.1.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/login.js')}}"></script>
     <script src="{{asset('js/jquery.easydropdown.js')}}"></script>
     <script src="{{asset('js/wow.min.js')}}"></script>
@@ -35,11 +36,18 @@
         <div class="menu">
           <a class="toggleMenu" href="#"><img src="{{asset('images/nav.png')}}" alt="" /></a>
             <ul class="nav" id="nav">
-              <li class="active"><a href="#">Explore</a></li>
-              <li><a href="#">Compose</a></li>
+              <li class="active main-menu"><a href="#">Explore</a></li>
+              <li class="main-menu">
+                <div class="dropdown">
+                  <a class="dropdown-toggle" type="button" data-toogle="dropdown">Compose</a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Tambah lagu</li>
+                    <li><a href="#">Tambah alat musik</li>
+                  </ul>
+                </div>
+              </li>
               <div class="clearfix"></div>
             </ul>
-            <script type="text/javascript" src="{{asset('js/responsive-nav.js')}}"></script>
         </div>  
       </div>
       <div class="col-sm-3 search-box">
@@ -80,7 +88,7 @@
     
     <footer>
       <div class="copyrights">
-          <p>Copyrights &copy; 2015 ide_afik</p>
+          <p>Copyrights &copy; 2015 ide_yafi</p>
       </div>
     </footer>
   </body>

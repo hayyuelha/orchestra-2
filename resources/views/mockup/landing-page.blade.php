@@ -10,7 +10,7 @@
 	</div>
 </div>
 <div class="homepage-showcase">
-	<div class="educate-grid carousel-slide">
+	<div class="educate-grid carousel-slide" id="myCarousel" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="item active">
 				<div class="col-md-4">
@@ -176,8 +176,6 @@
 				<div class="clearfix"></div>
 			</div>
 		</div>
-		<a href="#landingCarousel" class="carousel-control left" data-slide="prev"></a>
-		<a href="#landingCarousel" class="carousel-control right" data-slide="next"></a>
 	</div>
 </div>
 <div class="offering">
@@ -191,8 +189,8 @@
 
 @section('script')
 <script>
-$('.carousel').carousel({
-    interval: 5000 //changes the speed
+$('.myCarousel').carousel({
+    interval: 50 //changes the speed
 })
 </script>
-@show
+@endsection
