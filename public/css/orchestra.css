@@ -16,3 +16,26 @@ footer {
     z-index: 10;
     margin-top: -3em;
 }
+
+ul.overview{
+	padding: 0;
+	list-style: none;
+	/*position: absolute;*/
+	bottom: 135px;
+	left: 20px;
+	/*background: rgba(0,0,0,0.5);*/
+}
+ul.overview li{
+	color: #000;
+	font-size: 1em;
+	font-weight:100;
+}
+
+.grid_detail{
+	padding-top: 30px;
+	position:relative;
+	box-shadow: 0 1px 0px #E6E5E5;
+	-webkit-box-shadow: 0 1px 0px #E6E5E5;
+	-moz-box-shadow: 0 1px 0px #E6E5E5;
+	-o-box-shadow: 0 1px 0px #E6E5E5;
+}
