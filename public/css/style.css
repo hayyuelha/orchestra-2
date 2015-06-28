@@ -21,13 +21,17 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+.container{
+	margin-right: 10% !important;
+	margin-left: 10% !important;
+}
 .header{
 	background:rgb(77,77,77);
 	padding:0;
 	height : 70px;
 }
 .header-left{
-	padding: 10px 0 0 0px;
+	padding: 0px 0 0 0px;
 	width: 30%;
 }
 
@@ -69,26 +73,33 @@ body a{
 	position: relative;
 	margin-right: 5%;
 	left: 5%;
-	margin-top: -2%;
 }
 .menu{
 	 position:relative;
-	 padding-top: 3%;
 	 width:100%;
 }
 .menu li{
 	display:inline-block;
-	margin-right: 20px;
+	margin-right: 5px;
+
 }
+.menu li.active {
+	background: #FF9147;
+	color:#ffffff;
+}
+
 .menu li:first-child{
    	margin-left:8%;
 }
 .menu li a{
   	display: block;
-	font-size: 0.85em;
+	font-size: 1em;
 	text-transform: uppercase;
-	color:#96a6a7;
-	padding:5px;
+	color: #fff;
+	height: 70px;
+	width: 110px;
+	text-align: center;
+	padding:20px 0 0 0;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
@@ -96,12 +107,9 @@ body a{
 	font-weight:500;
 }
 .menu li a:hover ,.menu li.active a{
+	 color: #fff;
 	 background: #FF9147;
-	 color:#ffffff;
-	 height:30px;
-	 padding-left: 5px;
-	 padding-right: 5px;
-
+	 text-decoration: none;
 } 
 #nav .current a {
 	 color:red;
@@ -365,6 +373,14 @@ a#loginButton img {
 	display: block;
 }
 
+.bottom_nav {
+	position: absolute;
+}
+
+.top_search {
+	height: 50px !important;
+}
+
 /**** Homepage *****/
 .homepage-landing {
 	background-image: url("/images/angklung1.jpg");
@@ -374,23 +390,27 @@ a#loginButton img {
 	height:580px;
 }
 .landing-container{
-	padding: 80px 0;
+	padding: 150px 0;
 }
 .container-fluid{
 	max-width: 1024px;
 	margin: 0px auto;
 }
+.slideshow-bg {
+	width: 100%;
+}
 .landing-descriptor{
-	margin-top: 10%;
+	margin-top: 5%;
 	font-size: 48px;
 	font-weight: 400;
 	line-height: 68px;
 	font-family: Montserrat,sans-serif;
-	padding: 0 15px;
-	letter-spacing: -2px;
+	margin: 0 20% 0 20%;
+	padding: 0 0% 0 0%;
 	background: rgba(52,48,45,.8);
     color: #f1f1f1;
     display: inline-block;
+    position: relative;
 }
 .homepage-compose {
 	background: #e2e2e2;
@@ -1192,6 +1212,7 @@ p.m_5{
 }
 .star1 a:hover {
 	text-decoration: none;
+	color :#FF9147;
 }
 
 .star1 a img {
@@ -1512,7 +1533,7 @@ ul.service_grid li.desc1 p{
 	padding: 10px;
 	background: #fff;
 }
-.living_box:hover span.sale-label{
+.living-top:hover span.sale-label{
 	background:#1db05e;
 }
 .sale-label {
@@ -1949,7 +1970,6 @@ p.educate {
 	width: 71%;
 }
 .menu li a {
-	margin: 5px 5px;
 	font-size: 0.8125em;
 }
 .menu {

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 @section('content')
 <div class="content_top">
-   	<div class="container">
+   	<div class="container top_search">
    		<div class="col-md-8 bottom_nav">
    		   <div class="content_menu">
    				<ul>
@@ -29,7 +29,7 @@
 	  <div class="container">
    	  <div class="content_middle_box">
           <div class="top_grid">
-   			 <div class="grid1 col-md-12">
+   			<div class="grid1 col-md-12">
    				<div class="view view-first">
                   <div class="index_img"><img src="/images/angklung1.jpg" class="img-responsive" alt=""/></div>
    				       <div class="mask" href="#">
@@ -41,10 +41,10 @@
    				 <div class="inner_wrap">
    				 	<h1 class="grey">ANGKLUNG</h1>
    				 	<p class="star1">
-   				 	  oleh <a href="#"> AFIK </a> | <a href="#"> <img src="/images/star1.png" alt=""> suka (236)</a>
+   				 	  oleh <a href="#"> AFIK </a> | <a href="#"> <span class="fa fa-heart"> suka (236)</a>
    				 	</p>
    				 </div>
-			     </div>
+			   </div>
    			<div class="clearfix"> </div>
             <div class="grid1 col-md-12">
                <div class="view view-first">
@@ -58,9 +58,9 @@
                  <div class="inner_wrap">
                   <h1 class="grey">Bubuy Bulan</h1>
                   <p class="star1">
-                    oleh <a href="#"> AFIK </a>| <a href="#"> <img src="/images/star1.png" alt="">suka (236)</a> |
-                    <a href="#"> <img src="/images/star1.png" alt="">fork</a> |
-                    <a href="#"> <img src="/images/star1.png" alt="">add to playlist</a>
+                    oleh <a href="#"> AFIK </a> | <a href="#"> <span class="fa fa-heart"> suka (236)</a> | 
+                    <a href="#"> <span class="fa fa-code-fork"> fork</a> | 
+                    <a href="#"> <span class="fa fa-plus"> add to playlist</a>
                   </p>
                 </div>
               </div>
