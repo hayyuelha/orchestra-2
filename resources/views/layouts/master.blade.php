@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +7,39 @@
     <title>NAMA APLIKASI</title>
     
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href="/css/bootstrap.css" rel='stylesheet' type='text/css' />
-    <link href="/css/style.css" rel='stylesheet' type='text/css' />
-    <link href="font-awesome/css/font-awesome.min.css">
+    <link href="{{asset('vendor/bootflat/css/bootstrap.min.css')}}" rel='stylesheet' type='text/css' />
+      <link href="{{asset('css/style.css')}}" rel='stylesheet' type='text/css' />
+    <link href="{{asset('font-awesome/css/font-awesome.min.css')}}"/>
+    <link href="{{asset('css/orchestra.css')}}" rel="stylesheet" type="text/css"/>
 
-    <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
-    <script type="text/javascript" src="/js/login.js"></script>
-    <script src="/js/jquery.easydropdown.js"></script>
-    <script src="/js/wow.min.js"></script>
-    <script src="/js/jquery.js"></script>
+    <script type="text/javascript" src="{{asset('js/jquery-1.11.1.min.js')}}"></script>
+    <script type="text/javascript" src="{{asset('js/login.js')}}"></script>
+    <script src="{{asset('js/jquery.easydropdown.js')}}"></script>
+    <script src="{{asset('js/wow.min.js')}}"></script>
+    <script src="{{asset('js/jquery.js')}}"></script>
     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="{{asset("js/bootstrap.min.js")}}"></script>
 
 <!-- Script to Activate the Carousel -->
-    <link href="/css/animate.css" rel='stylesheet' type='text/css' />
+    <link href="{{asset('/css/animate.css')}}" rel='stylesheet' type='text/css' />
     <script>
       new WOW().init();
     </script>
   </head>
   <body>
-    <nav class="header" role="navigation">
-      <div class="col-sm-4 header-left">
+    <nav class="header" role="navigation" id="header">
+      <div class="col-sm-4 header-left"  >
         <div class="logo">
           <a href="#"><img src="/images/home1.png" alt=""/></a>
         </div> 
         <div class="menu">
-          <a class="toggleMenu" href="#"><img src="/images/nav.png" alt="" /></a>
+          <a class="toggleMenu" href="#"><img src="{{asset('images/nav.png')}}" alt="" /></a>
             <ul class="nav" id="nav">
               <li class="active"><a href="#">Explore</a></li>
               <li><a href="#">Compose</a></li>
               <div class="clearfix"></div>
             </ul>
-            <script type="text/javascript" src="/js/responsive-nav.js"></script>
+            <script type="text/javascript" src="{{asset('js/responsive-nav.js')}}"></script>
         </div>  
       </div>
       <div class="col-sm-3 search-box">
@@ -46,7 +47,7 @@
             <input type="submit" value="" />
       </div>
       <div class="col-sm-5 header_right">
-        <div id="loginContainer"><a href="#" id="loginButton"><img src="/images/login.png"><span>Login</span></a>
+        <div id="loginContainer"><a href="#" id="loginButton"><img src="{{asset('images/login.png')}}"><span>Login</span></a>
           <div id="loginBox">                
             <form id="loginForm">
                     <fieldset id="body">
@@ -69,15 +70,17 @@
       </div>
     </nav>
 
-    <div class= "content-main">
-    @yield('content')
+    <div class= "content-main" id="container">
+        <div id="main-content">
+            @yield('content')
+        </div>
     </div>
     
     @yield('script')
     
     <footer>
       <div class="copyrights">
-          <p>Copyrights &copy; 2015 ide_yafi</p>
+          <p>Copyrights &copy; 2015 ide_afik</p>
       </div>
     </footer>
   </body>

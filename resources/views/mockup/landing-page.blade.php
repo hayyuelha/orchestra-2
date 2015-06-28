@@ -16,7 +16,7 @@
 				<div class="col-md-4">
 					<div class="living_box">
 						<a href="#">
-							<img src="/images/gamelan1.jpg" class="img-responsive" alt>
+							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
@@ -32,7 +32,7 @@
 								<div class="col-sm-2">
 									<span class="love-i"></span>
 								</div>
-								<div class"col-sm-2">
+								<div class="col-sm-2">
 									10
 								</div>
 							</div>
@@ -58,7 +58,7 @@
 				<div class="col-md-4">
 					<div class="living_box">
 						<a href="#">
-							<img src="/images/gamelan1.jpg" class="img-responsive" alt>
+							<img src="{{asset('/images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
@@ -77,7 +77,7 @@
 				<div class="col-md-4">
 					<div class="living_box">
 						<a href="#">
-							<img src="/images/gamelan1.jpg" class="img-responsive" alt>
+							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
@@ -93,7 +93,7 @@
 				<div class="col-md-4">
 					<div class="living_box">
 						<a href="#">
-							<img src="/images/gamelan1.jpg" class="img-responsive" alt>
+							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
@@ -109,7 +109,7 @@
 				<div class="col-md-4">
 					<div class="living_box">
 						<a href="#">
-							<img src="/images/gamelan1.jpg" class="img-responsive" alt>
+							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
