@@ -10,12 +10,12 @@
 	</div>
 </div>
 <div class="homepage-showcase">
-	<div class="educate-grid carousel-slide">
+	<div class="educate-grid carousel-slide" id="myCarousel" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="item active">
 				<div class="col-md-4">
 					<div class="living_box">
-						<a href="#">
+						<a class="living-top" href="#">
 							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
@@ -26,14 +26,11 @@
 								<a href="#">Gamelan jawa</a>
 							</h3>
 							<div class = "row showc">
-								<div class="col-sm-4">
-									<p> Gamelan lorem blah </p>
+								<div class="col-sm-8">
+									<p> Gamelan lorem blah </p> 
 								</div>
 								<div class="col-sm-2">
-									<span class="love-i"></span>
-								</div>
-								<div class="col-sm-2">
-									10
+									<a href="#" ><span class="fa fa-heart"></span> 10 </a>
 								</div>
 							</div>
 						</div>
@@ -41,8 +38,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="living_box">
-						<a href="#">
-							<img src="/images/gamelan1.jpg" class="img-responsive" alt>
+						<a class="living-top" href="#">
+							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
@@ -51,14 +48,21 @@
 							<h3>
 								<a href="#">Gamelan jawa</a>
 							</h3>
-							<p> Gamelan lorem blah </p>
+							<div class = "row showc">
+								<div class="col-sm-8">
+									<p> Gamelan lorem blah </p> 
+								</div>
+								<div class="col-sm-2">
+									<a href="#" ><span class="fa fa-heart"></span> 10 </a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="living_box">
-						<a href="#">
-							<img src="{{asset('/images/gamelan1.jpg')}}" class="img-responsive" alt>
+						<a class="living-top" href="#">
+							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
@@ -67,7 +71,14 @@
 							<h3>
 								<a href="#">Gamelan jawa</a>
 							</h3>
-							<p> Gamelan lorem blah </p>
+							<div class = "row showc">
+								<div class="col-sm-8">
+									<p> Gamelan lorem blah </p> 
+								</div>
+								<div class="col-sm-2">
+									<a href="#" ><span class="fa fa-heart"></span> 10 </a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -76,7 +87,7 @@
 			<div class="item ">
 				<div class="col-md-4">
 					<div class="living_box">
-						<a href="#">
+						<a class="living-top" href="#">
 							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
@@ -86,13 +97,20 @@
 							<h3>
 								<a href="#">Gamelan jawa 2</a>
 							</h3>
-							<p> Gamelan lorem blah </p>
+							<div class = "row showc">
+								<div class="col-sm-8">
+									<p> Gamelan lorem blah </p> 
+								</div>
+								<div class="col-sm-2">
+									<a href="#" ><span class="fa fa-heart"></span> 10 </a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="living_box">
-						<a href="#">
+						<a class="living-top" href="#">
 							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
@@ -102,13 +120,20 @@
 							<h3>
 								<a href="#">Gamelan jawa 2</a>
 							</h3>
-							<p> Gamelan lorem blah </p>
+							<div class = "row showc">
+								<div class="col-sm-8">
+									<p> Gamelan lorem blah </p> 
+								</div>
+								<div class="col-sm-2">
+									<a href="#" ><span class="fa fa-heart"></span> 10 </a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="living_box">
-						<a href="#">
+						<a class="living-top" href="#">
 							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
@@ -118,7 +143,14 @@
 							<h3>
 								<a href="#">Gamelan jawa 2</a>
 							</h3>
-							<p> Gamelan lorem blah </p>
+							<div class = "row showc">
+								<div class="col-sm-8">
+									<p> Gamelan lorem blah </p> 
+								</div>
+								<div class="col-sm-2">
+									<a href="#" ><span class="fa fa-heart"></span> 10 </a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -127,8 +159,8 @@
 			<div class="item ">
 				<div class="col-md-4">
 					<div class="living_box">
-						<a href="#">
-							<img src="/images/gamelan1.jpg" class="img-responsive" alt>
+						<a class="living-top" href="#">
+							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
@@ -137,14 +169,21 @@
 							<h3>
 								<a href="#">Gamelan jawa 3</a>
 							</h3>
-							<p> Gamelan lorem blah </p>
+							<div class = "row showc">
+								<div class="col-sm-8">
+									<p> Gamelan lorem blah </p> 
+								</div>
+								<div class="col-sm-2">
+									<a href="#" ><span class="fa fa-heart"></span> 10 </a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="living_box">
-						<a href="#">
-							<img src="/images/gamelan1.jpg" class="img-responsive" alt>
+						<a class="living-top" href="#">
+							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
@@ -153,14 +192,21 @@
 							<h3>
 								<a href="#">Gamelan jawa 3</a>
 							</h3>
-							<p> Gamelan lorem blah </p>
+							<div class = "row showc">
+								<div class="col-sm-8">
+									<p> Gamelan lorem blah </p> 
+								</div>
+								<div class="col-sm-2">
+									<a href="#" ><span class="fa fa-heart"></span> 10 </a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="living_box">
-						<a href="#">
-							<img src="/images/gamelan1.jpg" class="img-responsive" alt>
+						<a class="living-top" href="#">
+							<img src="{{asset('images/gamelan1.jpg')}}" class="img-responsive" alt>
 							<span class="sale-box">
 								<span class="sale-label">Play</span>
 							</span>
@@ -169,15 +215,20 @@
 							<h3>
 								<a href="#">Gamelan jawa 3</a>
 							</h3>
-							<p> Gamelan lorem blah </p>
+							<div class = "row showc">
+								<div class="col-sm-8">
+									<p> Gamelan lorem blah </p> 
+								</div>
+								<div class="col-sm-2">
+									<a href="#" ><span class="fa fa-heart"></span> 10 </a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="clearfix"></div>
 			</div>
 		</div>
-		<a href="#landingCarousel" class="carousel-control left" data-slide="prev"></a>
-		<a href="#landingCarousel" class="carousel-control right" data-slide="next"></a>
 	</div>
 </div>
 <div class="offering">
@@ -191,8 +242,8 @@
 
 @section('script')
 <script>
-$('.carousel').carousel({
-    interval: 5000 //changes the speed
+$('.myCarousel').carousel({
+    interval: 50 //changes the speed
 })
 </script>
-@show
+@endsection
