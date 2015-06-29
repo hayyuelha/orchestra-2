@@ -11,6 +11,7 @@
     <link href="{{asset('css/style.css')}}" rel='stylesheet' type='text/css' />
     <link href="{{asset('font-awesome/css/font-awesome.min.css')}}" rel='stylesheet'/>
     <link href="{{asset('css/orchestra.css')}}" rel="stylesheet" type="text/css"/>
+    <link href="{{asset('css/jPlayer/jplayer.blue.monday.css')}}" rel="stylesheet" type="text/css"/>
 
     <script type="text/javascript" src="{{asset('js/jquery-1.11.1.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/bootstrap.min.js')}}"></script>

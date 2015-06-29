@@ -39,3 +39,23 @@ ul.overview li{
 	-moz-box-shadow: 0 1px 0px #E6E5E5;
 	-o-box-shadow: 0 1px 0px #E6E5E5;
 }
+
+.content_middle_box_ed{
+	border-bottom:1px solid #DADADA;
+}
+
+i.songicon{
+	width: 67px;
+	height: 67px;
+	background: url(../images/img-sprite.png)no-repeat -91px -93px;
+	display: block;
+	position: absolute;
+	top:165px;
+	right:93px;
+}
+
+.index_img_orgbottom img{
+	border-bottom:3px solid #ff9147;
+	height: 200px;
+	width: 100%;
+}
