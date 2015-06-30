@@ -59,3 +59,39 @@ i.songicon{
 	height: 200px;
 	width: 100%;
 }
+
+.note-block {
+    background: gainsboro;
+
+}
+.note-block ul {
+    list-style-type: none;
+    padding-bottom: 5px;
+}
+.note-block ul li {
+    display: inline;
+
+}
+.btn-instrument {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    padding: 10px 10px;
+}
+
+.btn-instrument:hover {
+
+}
+
+
+.music-box-notes ul {
+    list-style-type: none;
+    overflow-x: scroll;
+}
+
+.music-box {
+    overflow-y: scroll;
+}
+.music-box-component {
+
+}
