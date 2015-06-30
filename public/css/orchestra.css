@@ -79,19 +79,43 @@ i.songicon{
     padding: 10px 10px;
 }
 
+.btn-instrument-blank {
+    opacity: 0.2;
+}
+
 .btn-instrument:hover {
 
 }
-
 
 .music-box-notes ul {
     list-style-type: none;
     overflow-x: scroll;
 }
 
-.music-box {
-    overflow-y: scroll;
+.music-box-instrument img{
+    max-width: 100px;
+    max-height: 100px;
 }
-.music-box-component {
+.music-box-notes {
+    overflow-x: scroll;
+}
 
+.music-box-instrument td{
+    height: 100px;
+}
+
+.music-box-notes th{
+    width: 100px;
+}
+.music-box-notes td{
+    /* MIND BLOWN CSS. MIND BLOWN */
+    min-width: 100px;
+    height: 100px;
+}
+
+.music-box-instrument table,.music-box-notes table {
+    table-layout: fixed;
+}
+.music-box-notes th, .music-box-notes td, .music-box-instrument th, .music-box-instrument td {
+    text-align: center;
 }
