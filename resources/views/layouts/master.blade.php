@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>NAMA APLIKASI</title>
+    <title>Dodo</title>
     
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="{{asset('vendor/bootflat/css/bootstrap.min.css')}}" rel='stylesheet' type='text/css' />
@@ -27,6 +27,11 @@
     <script>
       new WOW().init();
     </script>
+    <script>
+    $(document).ready( function() {
+      $('.dropdown-toggle').dropdown();
+    });
+    </script>
   </head>
   <body>
     <nav class="header" role="navigation" id="header">
@@ -40,10 +45,10 @@
               <li class="active main-menu"><a href="#">Explore</a></li>
               <li class="main-menu">
                 <div class="dropdown">
-                  <a class="dropdown-toggle" type="button" data-toogle="dropdown">Compose</a>
+                  <a href="#" class="dropdown-toggle" type="button" data-toogle="dropdown">Compose</a>
                   <ul class="dropdown-menu">
-                    <li><a href="#">Tambah lagu</li>
-                    <li><a href="#">Tambah alat musik</li>
+                    <li><a href="#">Tambah lagu</a></li>
+                    <li><a href="#">Tambah alat musik</a></li>
                   </ul>
                 </div>
               </li>
