@@ -7,53 +7,130 @@
             <div class="top_grid">
             <div class="grid1 col-md-12">
                 <div class="inner_wrap">
-                    <div class="pull-right" style="padding-bottom: 10px;">
-                        Timeout<input type="text" class="form-control" ng-model="timeOut">
-                        <a ng-click="playMusic()" class="btn btn-success">Play</a>
-                    </div>
+                    <form>
+                        <div class="row f-judul">
+                            <div class="form-group form-group-lg">
+                                <label class="sr-only" for="judul-lagu"> Judul lagu </label>
+                                <div class="col-md-4">
+                                    <input type="text" class="form-control" id="judul-lagu" placeholder="Judul Lagu">
+                                </div>
+                            </div>
+                            <div class="add-instrument">
+                                <a href="#"><h2>Tambah Instrument <span class="fa fa-plus-square"/> </h2></a>
+                            </div>
+                        </div>
+                        <div class="row editor">
+                            <div class="col-md-2" style="padding-right: 0px;">
+                                <div class="music-box-instrument">
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <th>Alat Musik</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="{{asset('images/instrument/slenthem-pelog.jpg')}}">
+                                                <span>Slenthem Pelog</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="{{asset('images/instrument/bonangbarung.jpg')}}">
+                                                <span>Bonang Barung</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </div>
+                            <div class="col-md-10" style="padding-left: 0px;">
+                                <div class="music-box-notes">
+                                    <table class="table table-striped">
+                                        <tr>
+                                            <th ng-repeat="note in notes['slenthem'] track by $index">@{{$index + 1}}</th>
+                                        </tr>
+                                        <tr>
+                                            <td ng-repeat="note in notes['slenthem'] track by $index">
+                                                <a ng-click="changeNote('slenthem',$index)" ng-class="['btn','btn-primary','btn-instrument']">@{{notes['slenthem'][$index]}}</a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td ng-repeat="note in notes['bonangbarung'] track by $index">
+                                                <a ng-click="changeNote('bonangbarung',$index)" ng-class="['btn','btn-primary','btn-instrument']">@{{notes['bonangbarung'][$index]}}</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row timeout" style="padding-bottom: 10px;">
+                            <label class="col-sm-2 control-label" for="timeout"> Timeout </label>
+                            <div class="col-md-2">
+                                <input type="text" class="form-control" ng-model="timeOut">
+                            </div>
+                            <a ng-click="playMusic()" class="fa fa-play-circle fa-2x"></a> 
+                            <a ng-click="#" class="fa fa-step-backward fa-1g"></a>
+                            <a ng-click="#" class="fa fa-pause fa-1g"></a>
+                            <a ng-click="#" class="fa fa-stop fa-1g"></a>
+                            <a ng-click="#" class="fa fa-step-forward fa-1g"></a>
+                        </div>
+                        <div class="row form-group">
+                            <label class="col-sm-2 control-label" for="asal-lagu"> Asal Lagu </label>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" id="asal-lagu">
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="provinsi-opt" class="col-sm-2 control-label"> Provinsi </label>
+                            <div class="col-md-6"> 
+                                <select class="form-control" id="provinsi-opt">
+                                    <option> Nangroe Aceh Darusalam </option>
+                                    <option> Sumatera Utara </option>
+                                    <option> Sumatera Barat </option>
+                                    <option> Riau </option>
+                                    <option> Kep. Riau </option>
+                                    <option> Jambi </option>
+                                    <option> Bengkulu </option>
+                                    <option> Bangka Belitung </option>
+                                    <option> Sumatera Selatan </option>
+                                    <option> Lampung </option>
+                                    <option> Banten </option>
+                                    <option> Jawa Barat </option>
+                                    <option> Jakarta </option>
+                                    <option> Jawa Tengah </option>
+                                    <option> Yogyakarta </option>
+                                    <option> Jawa Timur </option>
+                                    <option> Kalimantan Barat </option>
+                                    <option> Kalimantan Tengah </option>
+                                    <option> Kalimantan Selatan </option>
+                                    <option> Kalimantan Utara </option>
+                                    <option> Kalimantan Timur </option>
+                                    <option> Bali </option>
+                                    <option> Nusa Tenggara Barat </option>
+                                    <option> Nusa Tenggara Timur </option>
+                                    <option> Sulawesi Barat </option>
+                                    <option> Sulawesi Selatan </option>
+                                    <option> Gorontalo </option>
+                                    <option> Sulawesi Tengah </option>
+                                    <option> Sulawesi Tenggara </option>
+                                    <option> Sulawesi Utara </option>
+                                    <option> Maluku Utara </option>
+                                    <option> Maluku </option>
+                                    <option> Papua Barat </option>
+                                    <option> Papua </option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row form-group">
+                            <label for="deskripsi-lagu" class="col-sm-2 control-label"> Deskripsi </label>
+                            <div class="col-md-6">
+                                <textarea class="form-control" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <div class="create-nav">
+                            <a href="#" > Batal </a> | <a type="submit"> Simpan </a>
+                        </div>
+                    </form>
                     <div class="clearfix"></div>
-                    <div class="col-md-2" style="padding-right: 0px;">
-                        <div class="music-box-instrument">
-                            <table class="table table-striped">
-                                <tr>
-                                    <th>Alat Musik</th>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <img src="{{asset('images/slenthem-pelog.jpg')}}">
-                                        <span>Slenthem Pelog</span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        <img src="{{asset('images/bonangbarung.jpg')}}">
-                                        <span>Bonang Barung</span>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-
-                    </div>
-                    <div class="col-md-10" style="padding-left: 0px;">
-                        <div class="music-box-notes">
-                            <table class="table table-striped">
-                                <tr>
-                                    <th ng-repeat="note in notes['slenthem'] track by $index">@{{$index + 1}}</th>
-                                </tr>
-                                <tr>
-                                    <td ng-repeat="note in notes['slenthem'] track by $index">
-                                        <a ng-click="changeNote('slenthem',$index)" ng-class="['btn','btn-primary','btn-instrument']">@{{notes['slenthem'][$index]}}</a>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td ng-repeat="note in notes['bonangbarung'] track by $index">
-                                        <a ng-click="changeNote('bonangbarung',$index)" ng-class="['btn','btn-primary','btn-instrument']">@{{notes['bonangbarung'][$index]}}</a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-
                 </div>
             </div>
             </div>

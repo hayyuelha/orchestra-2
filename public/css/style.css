@@ -995,7 +995,7 @@ a#loginButton img {
 i.instrument1{
 	width: 67px;
 	height: 80px;
-	background: url(../images/thumbnail3.png) no-repeat 0px 0px;
+	background: url(../images/thumbnail.png) no-repeat 0px 0px;
 	display: block;
 	position: absolute;
 	bottom:100px;
@@ -1004,7 +1004,7 @@ i.instrument1{
 i.music1{
 	width: 67px;
 	height: 80px;
-	background: url(../images/thumbnail3.png) no-repeat -68px 0px;
+	background: url(../images/thumbnail.png) no-repeat -68px 0px;
 	display: block;
 	position: absolute;
 	bottom:100px;
@@ -1012,7 +1012,7 @@ i.music1{
 }
 
 .index_img img{
-	border-bottom:3px solid #1baf5d;
+	border-bottom:3px solid #ff9147;
 	height: 200px;
 	width: 100%;
 }
@@ -1577,7 +1577,7 @@ ul.service_grid li.desc1 p{
 }
 .living-top img {
 	height: 136px;
-	width: 371px;
+	width: 100%;
 }
 .living-top:hover span.sale-label{
 	background:#808080;

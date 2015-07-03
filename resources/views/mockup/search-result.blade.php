@@ -72,7 +72,7 @@
           <div class="view view-first">
             <div class="index_img"><img src="/images/instrument/kecapi.jpg" class="img-responsive" alt=""/></div>
             <div class="mask" href="#">
-              <p> Kecap adalah alat musik dari Jawa Barat.</p>
+              <p> Kecapi adalah alat musik dari Jawa Barat.</p>
               <div class="info"><i class="search"> </i> Show More</div>
             </div>
           </div> 
