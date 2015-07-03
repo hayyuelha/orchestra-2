@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vadana</title>
-    
+    <link rel="icon" type="image/png" href="{{asset('images/favicon.png')}}">
+
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="{{asset('vendor/bootflat/css/bootstrap.min.css')}}" rel='stylesheet' type='text/css' />
     <link href="{{asset('css/style.css')}}" rel='stylesheet' type='text/css' />
@@ -37,7 +38,7 @@
     <nav class="header" role="navigation" id="header">
       <div class="col-sm-4 header-left"  >
         <div class="logo">
-          <a href="#"><img src="/images/home1.png" alt=""/></a>
+          <a href="#"><img src="/images/logo.png" alt=""/></a>
         </div> 
         <div class="menu">
           <a class="toggleMenu" href="#"><img src="{{asset('images/nav.png')}}" alt="" /></a>

@@ -74,7 +74,12 @@ body a{
 	float: left;
 	position: relative;
 	margin-right: 5%;
-	left: 5%;
+	left: 3%;
+	padding-top: 5px;
+}
+.logo img {
+	width: 100px;
+	height: 50px;
 }
 .menu{
 	 position:relative;
@@ -1973,7 +1978,8 @@ p.educate {
 	width:374px;
 }
 .logo {
-	width: 20%;
+	width: 100px !important;
+	height: 50px !important;
 }
 .menu {
 	width:100%;
@@ -2033,7 +2039,8 @@ p.educate {
 }
 .logo {
 	margin-right:0;
-	width: 20%;
+	width: 100px;
+	height: 50px;
 }
 .container_wrap {
 	margin: 0 auto;
@@ -2583,6 +2590,7 @@ label.btn1.btn2.btn-2.btn-2g {
 }
 .logo {
 	margin: 0;
-	width: 20%;
+	width: 100px;
+	height: 50px
 }
 }
