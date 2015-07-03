@@ -119,3 +119,19 @@ i.songicon{
 .music-box-notes th, .music-box-notes td, .music-box-instrument th, .music-box-instrument td {
     text-align: center;
 }
+
+.wiki-music {
+    padding-top: 10px;
+    font-size: 14pt;
+}
+
+.wiki-music blockquote {
+    font-size: 14pt;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.played-with {
+    padding-top: 15px;
+    font-size: 14pt;
+}
