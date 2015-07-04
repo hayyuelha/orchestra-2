@@ -192,6 +192,15 @@ fieldset[disabled] .btn-instrument-read.active {
     text-decoration: none;
 }
 
+.create-nav input[type="submit"] {
+    color: #808080 !important;
+}
+.create-nav input[type="submit"]:hover {
+    text-transform: uppercase !important;
+    color: #ff6600 !important;
+    text-decoration: none !important;
+}
+
 .timeout a {
     color:#808080;
 }
@@ -234,4 +243,25 @@ fieldset[disabled] .btn-instrument-read.active {
 .notes-group ul li {
 	display: inline;
 	list-style-type: none;
+}
+
+.instrument-create-box {
+    margin:5% 0 10% 0 ;
+}
+.img-upload {
+    width: 784px;
+    height: 140px;
+    background : url(../images/upload-img.png) no-repeat 0px -140px;
+    margin: 0 0 5% 15%;
+}
+.img-upload:hover {
+    width: 784px;
+    height: 140px;
+    background : url(../images/upload-img.png) no-repeat 0px 0px;
+
+}
+.tabel-not tr{
+    min-height: 50px;
+    line-height: 50px;
+    height: 50px;
 }
