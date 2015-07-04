@@ -1,6 +1,5 @@
 @extends('layouts.master')
 @section('content')
-    <span class="glyphicon glyphicon-search"></span>
 <div id="map"></div>
     <style>
         #map:hover {
@@ -21,139 +20,207 @@
             var data = [
                 {
                     "hc-key": "id-3700",
-                    "value": {instrument:1,song:2}
+                    "value": 1,
+                    "valueins": 1,
+                    "valuesong": 0
                 },
                 {
                     "hc-key": "id-ac",
-                    "value": {instrument:1,song:2}
+                    "value": 2,
+                    "valueins": 1,
+                    "valuesong": 1
                 },
                 {
                     "hc-key": "id-ki",
-                    "value": {instrument:1,song:2}
+                    "value": 3,
+                    "valueins": 1,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-jt",
-                    "value": {instrument:1,song:2}
+                    "value": 4,
+                    "valueins": 2,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-be",
-                    "value": {instrument:1,song:2}
+                    "value": 5,
+                    "valueins": 2,
+                    "valuesong": 3                    
                 },
                 {
                     "hc-key": "id-bt",
-                    "value": {instrument:1,song:2}
+                    "value": 6,
+                    "valueins": 4,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-kb",
-                    "value": {instrument:1,song:2}
+                    "value": 7,
+                    "valueins": 3,
+                    "valuesong": 4                    
                 },
                 {
                     "hc-key": "id-bb",
-                    "value": {instrument:1,song:2}
+                    "value": 8,
+                    "valueins": 4,
+                    "valuesong": 4
                 },
                 {
                     "hc-key": "id-ba",
-                    "value": {instrument:1,song:2}
+                    "value": 9,
+                    "valueins": 5,
+                    "valuesong": 4
                 },
                 {
                     "hc-key": "id-ji",
-                    "value": {instrument:1,song:2}
+                    "value": 10,
+                    "valueins": 3,
+                    "valuesong": 7
                 },
                 {
                     "hc-key": "id-ks",
-                    "value": {instrument:1,song:2}
+                    "value": 1,
+                    "valueins": 1,
+                    "valuesong": 0
                 },
                 {
                     "hc-key": "id-nt",
-                    "value": {instrument:1,song:2}
+                    "value": 2,
+                    "valueins": 1,
+                    "valuesong": 1
                 },
                 {
                     "hc-key": "id-se",
-                    "value": {instrument:1,song:2}
+                    "value": 3,
+                    "valueins": 1,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-kr",
-                    "value": {instrument:1,song:2}
+                    "value": 4,
+                    "valueins": 2,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-ib",
-                    "value": {instrument:1,song:2}
+                    "value": 5,
+                    "valueins": 2,
+                    "valuesong": 3
                 },
                 {
                     "hc-key": "id-su",
-                    "value": {instrument:1,song:2}
+                    "value": 6,
+                    "valueins": 4,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-ri",
-                    "value": {instrument:1,song:2}
+                    "value": 7,
+                    "valueins": 3,
+                    "valuesong": 4
                 },
                 {
                     "hc-key": "id-sw",
-                    "value": {instrument:1,song:2}
+                    "value": 8,
+                    "valueins": 4,
+                    "valuesong": 4
                 },
                 {
                     "hc-key": "id-la",
-                    "value": {instrument:1,song:2}
+                    "value": 9,
+                    "valueins": 5,
+                    "valuesong": 4
                 },
                 {
                     "hc-key": "id-sb",
-                    "value": {instrument:1,song:2}
+                    "value": 10,
+                    "valueins": 3,
+                    "valuesong": 7
                 },
                 {
                     "hc-key": "id-ma",
-                    "value": {instrument:1,song:2}
+                    "value": 1,
+                    "valueins": 1,
+                    "valuesong": 0
                 },
                 {
                     "hc-key": "id-nb",
-                    "value": {instrument:1,song:2}
+                    "value": 2,
+                    "valueins": 1,
+                    "valuesong": 1
                 },
                 {
                     "hc-key": "id-sg",
-                    "value": {instrument:1,song:2}
+                    "value": 3,
+                    "valueins": 1,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-st",
-                    "value": {instrument:1,song:2}
+                    "value": 4,
+                    "valueins": 2,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-pa",
-                    "value": {instrument:1,song:2}
+                    "value": 5,
+                    "valueins": 2,
+                    "valuesong": 3
                 },
                 {
                     "hc-key": "id-1024",
-                    "value": {instrument:1,song:2}
+                    "value": 6,
+                    "valueins": 4,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-jk",
-                    "value": {instrument:1,song:2}
+                    "value": 7,
+                    "valueins": 3,
+                    "valuesong": 4
                 },
                 {
                     "hc-key": "id-jr",
-                    "value": {instrument:1,song:2}
+                    "value": 8,
+                    "valueins": 4,
+                    "valuesong": 4
                 },
                 {
                     "hc-key": "id-go",
-                    "value": {instrument:1,song:2}
+                    "value": 9,
+                    "valueins": 5,
+                    "valuesong": 4
                 },
                 {
                     "hc-key": "id-yo",
-                    "value": {instrument:1,song:2}
+                    "value": 10,
+                    "valueins": 3,
+                    "valuesong": 7
                 },
                 {
                     "hc-key": "id-kt",
-                    "value": {instrument:1,song:2}
+                    "value": 1,
+                    "valueins": 1,
+                    "valuesong": 0
                 },
                 {
                     "hc-key": "id-sl",
-                    "value": {instrument:1,song:2}
+                    "value": 2,
+                    "valueins": 1,
+                    "valuesong": 1
                 },
                 {
                     "hc-key": "id-sr",
-                    "value": {instrument:1,song:2}
+                    "value": 3,
+                    "valueins": 1,
+                    "valuesong": 2
                 },
                 {
                     "hc-key": "id-ja",
-                    "value": {instrument:1,song:2}
+                    "value": 4,
+                    "valueins": 2,
+                    "valuesong": 2
                 }
             ];
 
@@ -161,7 +228,7 @@
             $('#map').highcharts('Map', {
 
                 title : {
-                    text : 'Temukan alat musik di Indonesia'
+                    text : 'Temukan alat-alat musik tradisional Indonesia'
                 },
 
                 subtitle : {
@@ -176,7 +243,9 @@
                 },
 
                 colorAxis: {
-                    min: 0
+                    min: 0,
+                    minColor: '#00cc00',
+                    maxColor: '#001100'
                 },
 
                 series : [{
@@ -186,7 +255,7 @@
                     name: '',
                     states: {
                         hover: {
-                            color: '#BADA55'
+                            color: '#ff9147'
                         }
                     },
                     dataLabels: {
@@ -198,7 +267,7 @@
                 tooltip: {
                     useHTML: true,
                     formatter: function(){
-                        return '<b>'+this.point.name+'</b><br/><span class="glyphicon glyphicon-headphones"></span> '+ this.point.value.instrument + ' alat musik <span class="glyphicon glyphicon-music"></span> ' + this.point.value.song + ' lagu';
+                        return '<b>'+this.point.name+'</b><br/><span class="glyphicon glyphicon-headphones"></span> '+ this.point.valueins + ' alat musik <span class="glyphicon glyphicon-music"></span> ' + this.point.valuesong + ' lagu';
                     }
                 }
             });
