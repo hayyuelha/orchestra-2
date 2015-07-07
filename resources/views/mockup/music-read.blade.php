@@ -76,6 +76,8 @@
 									    </div>
 									  </div>
 									</div>
+									</div>
+								</div>
 								<div class="row played-with">
 									<p>Lagu ini dapat dimainkan dengan:</p>
 									<ul>
@@ -84,7 +86,7 @@
 									</ul>
 								</div>
 								
-							</div>
+							</div> 
 						</div>
    				    </div>
 			    </div>
