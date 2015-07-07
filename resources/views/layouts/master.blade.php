@@ -67,7 +67,7 @@
             <form id="loginForm">
                     <fieldset id="body">
                       <fieldset>
-                              <label for="email">Email Address</label>
+                              <label for="email">Alamat email</label>
                               <input type="text" name="email" id="email">
                         </fieldset>
                         <fieldset>
@@ -75,9 +75,10 @@
                                 <input type="password" name="password" id="password">
                          </fieldset>
                         <input type="submit" id="login" value="Sign in">
-                      <label for="checkbox"><input type="checkbox" id="checkbox"> <i>Remember me</i></label>
+                      <label for="checkbox"><input type="checkbox" id="checkbox"> <i>Selalu login</i></label>
                   </fieldset>
-                     <span><a href="#">Forgot your password?</a></span>
+                     <span><a href="#">Lupa password?</a></span>
+                     <span><a href="#">Daftar akun baru</a></span>
             </form>
           </div>
         </div>

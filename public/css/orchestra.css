@@ -152,6 +152,7 @@ i.songicon{
     text-transform: uppercase;
     margin: 30px 5% 0 0;
     font-size: 1.3em;
+    font-weight: 500;
 }
 
 .create-nav a {

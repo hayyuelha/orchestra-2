@@ -441,6 +441,9 @@ a#loginButton img {
     position: relative;
     margin-bottom: 20px;
 }
+.landing-descriptor h1 {
+	font-size: 50px;
+}
 .landing-descriptor h3 {
 	float: right;
 	padding: 10px 10px 5px 10px;
